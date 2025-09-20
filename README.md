@@ -1,57 +1,38 @@
-# Install Autopsy and Analyze the Disk File and Folder Configuration
+### NAME : MANOJ K
+### REG NO : 2122222223001
+## AIM:
+To install Autopsy on Kali Linux and analyze disk images, files, and folder configurations for digital forensic purposes.
 
-## AIM
-To install **Autopsy** and use it to analyze the disk’s file and folder configuration for forensic investigation.
-
-## REQUIREMENTS
-- **Operating System**: Windows 10/11, macOS, or Linux
-- **Tools**:  
-  - [Autopsy Digital Forensics Platform](https://www.autopsy.com/)  
-  - Optional: Sleuth Kit CLI tools for deeper analysis
-- **Test Data**: Disk image file (`.dd`, `.img`, `.E01`)
-
-## ARCHITECTURE DIAGRAM
-```mermaid
-flowchart TD
-    A[Disk Image / Physical Drive] --> B[Install Autopsy]
-    B --> C[Create New Case in Autopsy]
-    C --> D[Add Data Source: Disk Image]
-    D --> E["Autopsy Modules Run: File System, Metadata, Keywords"]
-    E --> F[File & Folder Structure View]
-    F --> G[Export / Recover Files]
-```
 ## DESIGN STEPS:
 ### Step 1:
-Download Autopsy from the official website and install it on your system.
+Install Autopsy using the terminal with the command:
 
 ### Step 2:
-Launch Autopsy and create a new case.
+Launch Autopsy from the terminal or application menu and create a new case.
 
 ### Step 3:
-Add your disk image or physical drive as the data source.
+Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
-### Step 4:
-Allow Autopsy to run its built-in ingest modules (file system analysis, hash lookup, keyword search, metadata extraction).
+1. Autopsy Web Interface
+Launch Autopsy:
 
-### Step 5:
-View the file and folder hierarchy in the left-hand tree panel.
+You can start Autopsy via terminal, which opens the web interface:
 
-### Step 6:
-Export or recover files if required for the investigation.
-
-## PROGRAM(Windows)
-
-1. Download Autopsy from autopsy.com.
-2. Install and launch the application.
-3. Select **New Case → Name your case → Choose case folder**.
-4. Click Add **Data Source → Select Disk Image → Browse to file**.
-5. Choose ingest modules (file system, metadata, hash lookup, keyword search).
-6. Wait for processing to finish.
-7. Explore file/folder structure in the navigation pane.
-8.Export selected files for further examination.
+```bash
+autopsy
+```
+It will be accessible at ```http://localhost:9999``` by default in your browser.
 
 ## OUTPUT:
-File and Folder Configuration Analysis Results
+
+<img width="1905" height="1016" alt="Screenshot 2025-09-13 135310" src="https://github.com/user-attachments/assets/f8542c59-49f6-475f-86fa-6ae9d5e35b62" />
+
+<img width="1739" height="918" alt="Screenshot 2025-08-14 141246" src="https://github.com/user-attachments/assets/a36435b9-db01-45eb-8df8-4d8162657087" />
+
+<img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/c51ece77-ac5e-4d47-ac85-6934a173f5d9" />
+
+<img width="1911" height="963" alt="Screenshot 2025-09-13 185456" src="https://github.com/user-attachments/assets/3a96f251-f5a1-4298-a3ca-088454c154ed" />
+
 
 ## RESULT:
 Autopsy was installed successfully and used to analyze disk, file, and folder configuration for forensic investigation.
