@@ -25,7 +25,8 @@ It will be accessible at ```http://localhost:9999``` by default in your browser.
 
 ## OUTPUT:
 
-<img width="1905" height="1016" alt="Screenshot 2025-09-13 135310" src="https://github.com/user-attachments/assets/f8542c59-49f6-475f-86fa-6ae9d5e35b62" />
+![WhatsApp Image 2025-09-27 at 13 39 22_c185f2cd](https://github.com/user-attachments/assets/f1c7303c-d36c-46e6-99a0-3475070f6cd2)
+
 
 <img width="1739" height="918" alt="Screenshot 2025-08-14 141246" src="https://github.com/user-attachments/assets/a36435b9-db01-45eb-8df8-4d8162657087" />
 
