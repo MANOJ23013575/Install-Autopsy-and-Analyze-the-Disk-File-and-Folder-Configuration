@@ -32,7 +32,7 @@ It will be accessible at ```http://localhost:9999``` by default in your browser.
 
 <img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/c51ece77-ac5e-4d47-ac85-6934a173f5d9" />
 
-<img width="1911" height="963" alt="Screenshot 2025-09-13 185456" src="https://github.com/user-attachments/assets/3a96f251-f5a1-4298-a3ca-088454c154ed" />
+
 
 
 ## RESULT:
